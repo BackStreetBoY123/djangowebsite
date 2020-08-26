@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Django Tutorial</title>
+{% load static %}
+<link rel="stylesheet" href="{% static 'assets/'%}css/bootstrap.min.css">
+</head>
+<body>
+
+{% for objs  in mywebapp1 %}
+
+{{ objs.first_name }}
+
+{% endfor %}
+
+
+<script src="{% static 'assets/js/jquery.slim.min.js' %}"></script>
+<script src="{% static 'assets/js/popper.min.js' %}"></script>
+<script src="{% static 'assets/js/bootstrap.min.js' %}"></script>
+</body>
+</html>
