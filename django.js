@@ -1,3 +1,3 @@
-function printhellow(){
-    console.log("hellow");
+function printhellow(helo){
+    console.log(hello);
 }
